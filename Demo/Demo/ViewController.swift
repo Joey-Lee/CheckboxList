@@ -18,12 +18,12 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
 
-        self.checkboxListViewA.checkboxSetup(["待签约","待完善","审核中","初审驳回","修改驳回","已签约"], font: UIFont.systemFont(ofSize: 12.0), color: UIColor.gray , isExclusive: false)
-        self.checkboxListViewA.setColor(UIColor.blue)
+        self.checkboxListViewA.checkboxSetup(["待签约","待完善","审核中","初审驳回","修改驳回","已签约"], font: UIFont.systemFont(ofSize: 11.0), color: UIColor.gray , isExclusive: false)
+        self.checkboxListViewA.setColor(UIColor.purple)
         self.checkboxListViewA.setShape("CheckedBox")
         
-        self.checkboxListViewB.checkboxSetup(["张三","李四","王五","赵六","钱琦","周八"], font: UIFont.systemFont(ofSize: 12.0), color: UIColor.black, isExclusive: false)
-        self.checkboxListViewB.setColor(UIColor.red)
+        self.checkboxListViewB.checkboxSetup(["张三","李四","王五","赵六","钱琦","周八"], font: UIFont.systemFont(ofSize: 11.0), color: UIColor.black, isExclusive: false)
+        self.checkboxListViewB.setColor(UIColor.orange)
         self.checkboxListViewB.setShape("circle")
     }
 

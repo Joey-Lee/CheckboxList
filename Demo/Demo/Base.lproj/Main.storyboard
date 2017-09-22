@@ -22,20 +22,12 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="BOa-jf-eKM" customClass="KCheckboxListView" customModule="Demo" customModuleProvider="target">
-                                <rect key="frame" x="42" y="67" width="138" height="263"/>
+                                <rect key="frame" x="44" y="67" width="138" height="208"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.99565136432647705" green="0.98086690902709961" blue="0.95686507225036621" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                             </view>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vT1-L8-hVE">
-                                <rect key="frame" x="120" y="418" width="134" height="30"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="提交"/>
-                                <connections>
-                                    <action selector="selectResult" destination="BYZ-38-t0r" eventType="touchUpInside" id="dae-Ph-A2E"/>
-                                </connections>
-                            </button>
                             <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="RJK-Jt-fFW" customClass="KCheckboxListView" customModule="Demo" customModuleProvider="target">
-                                <rect key="frame" x="211" y="67" width="138" height="263"/>
+                                <rect key="frame" x="211" y="67" width="138" height="208"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.99957239627838135" green="0.98478794097900391" blue="0.96078610420227051" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                             </view>
@@ -46,6 +38,14 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vT1-L8-hVE">
+                                <rect key="frame" x="120" y="368" width="134" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="提交"/>
+                                <connections>
+                                    <action selector="selectResult" destination="BYZ-38-t0r" eventType="touchUpInside" id="dae-Ph-A2E"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" red="0.99484407901763916" green="0.95047974586486816" blue="0.87451434135437012" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                     </view>
