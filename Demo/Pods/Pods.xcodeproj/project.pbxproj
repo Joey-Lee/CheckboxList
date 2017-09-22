@@ -1,0 +1,593 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		077AC01E701F40A07FFBC5D9052BFF55 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		2C8E3A44895E45237F120A63E86B415C /* CheckboxList-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 654ABA1A56C58BF7A904E44E16C1213C /* CheckboxList-dummy.m */; };
+		30A47F1122E632B48ACD4395D195F167 /* UncheckedBox.png in Resources */ = {isa = PBXBuildFile; fileRef = 50DEC8474C2EBE86860D9CAA0D46F029 /* UncheckedBox.png */; };
+		37D4DF5EDB98AA56B63ABBD77826E68A /* ChecklistView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEAF8329CE3465A0634BBFCA3E9A15FB /* ChecklistView.swift */; };
+		7EA5CB709272649955C1EABA81A6F3AA /* CheckedBox.png in Resources */ = {isa = PBXBuildFile; fileRef = 51A0BB150A57878880BEEA5BC2692018 /* CheckedBox.png */; };
+		86ACED6332019845EF7FED73EC471576 /* UncheckedCircle.png in Resources */ = {isa = PBXBuildFile; fileRef = 3D5217775B1F4DC3682BAD1A8863BA4E /* UncheckedCircle.png */; };
+		9B3D2966DAA4AF1B0CB2C14EF6104106 /* CheckBoxButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72B69146EAE09EBC86D176DA362F6957 /* CheckBoxButton.swift */; };
+		C3C23A8441E9CC8C6EF4BBAE120A7D49 /* Pods-Demo-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C5BC86D40B890A7B0844F888209CA06F /* Pods-Demo-dummy.m */; };
+		C41D6D304C826A6C41344A83025D1907 /* CheckboxList-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = ACF7DFADB58E0A71A445CED3CF4CA90E /* CheckboxList-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D221BBC003CC2EFEF3D9AF8A5CDC70EE /* Pods-Demo-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 03EA1E60232BFA05817BC26ACB8E68BA /* Pods-Demo-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D380BAFEA45A6223ABF5280F37DC9E33 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		EB06FD3B500B8F8FCABC3719A79C04EB /* CheckedCircle.png in Resources */ = {isa = PBXBuildFile; fileRef = 922D195A0A8222FC85A60B0A73539D5D /* CheckedCircle.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		93659DBB9D1F726A597F2E55C2B849F8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0C47D1C8F0135A3EB7028996EB20F1F5;
+			remoteInfo = CheckboxList;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		03EA1E60232BFA05817BC26ACB8E68BA /* Pods-Demo-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Demo-umbrella.h"; sourceTree = "<group>"; };
+		2287CF84273771E9C561E88F3DA8487B /* CheckboxList.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = CheckboxList.framework; path = CheckboxList.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		322419E99883B306EE7EC77959FCC8DF /* Pods-Demo.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-Demo.modulemap"; sourceTree = "<group>"; };
+		3CD5A30239C90F1B549B4AB9299ECF16 /* Pods-Demo-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Demo-frameworks.sh"; sourceTree = "<group>"; };
+		3D5217775B1F4DC3682BAD1A8863BA4E /* UncheckedCircle.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = UncheckedCircle.png; path = CheckboxListSwift/UncheckedCircle.png; sourceTree = "<group>"; };
+		3D653C9DA16200D75AD14323AA830C6B /* Pods-Demo-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Demo-resources.sh"; sourceTree = "<group>"; };
+		50DEC8474C2EBE86860D9CAA0D46F029 /* UncheckedBox.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = UncheckedBox.png; path = CheckboxListSwift/UncheckedBox.png; sourceTree = "<group>"; };
+		51A0BB150A57878880BEEA5BC2692018 /* CheckedBox.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = CheckedBox.png; path = CheckboxListSwift/CheckedBox.png; sourceTree = "<group>"; };
+		654ABA1A56C58BF7A904E44E16C1213C /* CheckboxList-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "CheckboxList-dummy.m"; sourceTree = "<group>"; };
+		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		71940C1CEB7995DC34CFE54CAF1AEF88 /* Pods-Demo-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Demo-acknowledgements.markdown"; sourceTree = "<group>"; };
+		72B69146EAE09EBC86D176DA362F6957 /* CheckBoxButton.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CheckBoxButton.swift; path = CheckboxListSwift/CheckBoxButton.swift; sourceTree = "<group>"; };
+		87B800E6EBE174BE0E56176A1D1062BA /* Pods_Demo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_Demo.framework; path = "Pods-Demo.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		922D195A0A8222FC85A60B0A73539D5D /* CheckedCircle.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = CheckedCircle.png; path = CheckboxListSwift/CheckedCircle.png; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		98855BF0B7E7B3C797269458C2C1B5BD /* CheckboxList-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CheckboxList-prefix.pch"; sourceTree = "<group>"; };
+		ACF7DFADB58E0A71A445CED3CF4CA90E /* CheckboxList-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CheckboxList-umbrella.h"; sourceTree = "<group>"; };
+		AEAF8329CE3465A0634BBFCA3E9A15FB /* ChecklistView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ChecklistView.swift; path = CheckboxListSwift/ChecklistView.swift; sourceTree = "<group>"; };
+		B42DC1D41254918B82DE30213A8FACDD /* CheckboxList.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CheckboxList.xcconfig; sourceTree = "<group>"; };
+		C27A4D195800EAFCE11D369216621A0F /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C5BC86D40B890A7B0844F888209CA06F /* Pods-Demo-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Demo-dummy.m"; sourceTree = "<group>"; };
+		CA19694C0AC41D598DE4ABFEB300E619 /* Pods-Demo-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Demo-acknowledgements.plist"; sourceTree = "<group>"; };
+		CC6A59B0ADA6CB2F51DAE6508E437829 /* Pods-Demo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Demo.debug.xcconfig"; sourceTree = "<group>"; };
+		DAB0701F8F25395B1ED46510ED4B9797 /* Pods-Demo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Demo.release.xcconfig"; sourceTree = "<group>"; };
+		E68F8C86FB3267A3C87983DA9E269889 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FFFF017EA7AF1F134ED9397C25033F7B /* CheckboxList.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = CheckboxList.modulemap; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0B4403606FA40B84AC22704F97E8632C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				077AC01E701F40A07FFBC5D9052BFF55 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2455DA72FB83C120AF2F00E50E9D8404 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D380BAFEA45A6223ABF5280F37DC9E33 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0934A13045CBE3475D0FA2D63F0842EF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2287CF84273771E9C561E88F3DA8487B /* CheckboxList.framework */,
+				87B800E6EBE174BE0E56176A1D1062BA /* Pods_Demo.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5BAF417827E987A1A9A1FE348056429E /* CheckboxList */ = {
+			isa = PBXGroup;
+			children = (
+				72B69146EAE09EBC86D176DA362F6957 /* CheckBoxButton.swift */,
+				AEAF8329CE3465A0634BBFCA3E9A15FB /* ChecklistView.swift */,
+				DF6D7E418D5A5E94F413A56325C411B9 /* Resources */,
+				800FF36015522A7E568EA3CC29E471D8 /* Support Files */,
+			);
+			name = CheckboxList;
+			path = CheckboxList;
+			sourceTree = "<group>";
+		};
+		6F2351C272926D3E0225FEFC2F9C5D1F /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				ECC58720C5754A079F9A150E40E2FCDD /* Pods-Demo */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				88B7EC0113CAAEFEBDD63E8B61C8B84A /* Pods */,
+				0934A13045CBE3475D0FA2D63F0842EF /* Products */,
+				6F2351C272926D3E0225FEFC2F9C5D1F /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		800FF36015522A7E568EA3CC29E471D8 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				FFFF017EA7AF1F134ED9397C25033F7B /* CheckboxList.modulemap */,
+				B42DC1D41254918B82DE30213A8FACDD /* CheckboxList.xcconfig */,
+				654ABA1A56C58BF7A904E44E16C1213C /* CheckboxList-dummy.m */,
+				98855BF0B7E7B3C797269458C2C1B5BD /* CheckboxList-prefix.pch */,
+				ACF7DFADB58E0A71A445CED3CF4CA90E /* CheckboxList-umbrella.h */,
+				C27A4D195800EAFCE11D369216621A0F /* Info.plist */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/CheckboxList";
+			sourceTree = "<group>";
+		};
+		88B7EC0113CAAEFEBDD63E8B61C8B84A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				5BAF417827E987A1A9A1FE348056429E /* CheckboxList */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D35AF013A5F0BAD4F32504907A52519E /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D35AF013A5F0BAD4F32504907A52519E /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		DF6D7E418D5A5E94F413A56325C411B9 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				51A0BB150A57878880BEEA5BC2692018 /* CheckedBox.png */,
+				922D195A0A8222FC85A60B0A73539D5D /* CheckedCircle.png */,
+				50DEC8474C2EBE86860D9CAA0D46F029 /* UncheckedBox.png */,
+				3D5217775B1F4DC3682BAD1A8863BA4E /* UncheckedCircle.png */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		ECC58720C5754A079F9A150E40E2FCDD /* Pods-Demo */ = {
+			isa = PBXGroup;
+			children = (
+				E68F8C86FB3267A3C87983DA9E269889 /* Info.plist */,
+				322419E99883B306EE7EC77959FCC8DF /* Pods-Demo.modulemap */,
+				71940C1CEB7995DC34CFE54CAF1AEF88 /* Pods-Demo-acknowledgements.markdown */,
+				CA19694C0AC41D598DE4ABFEB300E619 /* Pods-Demo-acknowledgements.plist */,
+				C5BC86D40B890A7B0844F888209CA06F /* Pods-Demo-dummy.m */,
+				3CD5A30239C90F1B549B4AB9299ECF16 /* Pods-Demo-frameworks.sh */,
+				3D653C9DA16200D75AD14323AA830C6B /* Pods-Demo-resources.sh */,
+				03EA1E60232BFA05817BC26ACB8E68BA /* Pods-Demo-umbrella.h */,
+				CC6A59B0ADA6CB2F51DAE6508E437829 /* Pods-Demo.debug.xcconfig */,
+				DAB0701F8F25395B1ED46510ED4B9797 /* Pods-Demo.release.xcconfig */,
+			);
+			name = "Pods-Demo";
+			path = "Target Support Files/Pods-Demo";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		6230C1459A03C873A863EB30C5861395 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D221BBC003CC2EFEF3D9AF8A5CDC70EE /* Pods-Demo-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B1E4529004D577AE552E6A9CFE8545BE /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C41D6D304C826A6C41344A83025D1907 /* CheckboxList-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		0C47D1C8F0135A3EB7028996EB20F1F5 /* CheckboxList */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E6197B1ECD891FF8B7A5455111E61A60 /* Build configuration list for PBXNativeTarget "CheckboxList" */;
+			buildPhases = (
+				667F7C498C04A3B51FEE79CA51BCDFD7 /* Sources */,
+				2455DA72FB83C120AF2F00E50E9D8404 /* Frameworks */,
+				E36B7F85DF8A28012EEBDA0372FAC371 /* Resources */,
+				B1E4529004D577AE552E6A9CFE8545BE /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CheckboxList;
+			productName = CheckboxList;
+			productReference = 2287CF84273771E9C561E88F3DA8487B /* CheckboxList.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		8405BACB5358B10E0F3D082A065ACB9E /* Pods-Demo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CB1A828D57E9494AD1DB667D68A039CF /* Build configuration list for PBXNativeTarget "Pods-Demo" */;
+			buildPhases = (
+				05501622EED4C5B04311187A466CB35C /* Sources */,
+				0B4403606FA40B84AC22704F97E8632C /* Frameworks */,
+				6230C1459A03C873A863EB30C5861395 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F93B2153DFDECDE18A8BD163F3C17F82 /* PBXTargetDependency */,
+			);
+			name = "Pods-Demo";
+			productName = "Pods-Demo";
+			productReference = 87B800E6EBE174BE0E56176A1D1062BA /* Pods_Demo.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 0934A13045CBE3475D0FA2D63F0842EF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0C47D1C8F0135A3EB7028996EB20F1F5 /* CheckboxList */,
+				8405BACB5358B10E0F3D082A065ACB9E /* Pods-Demo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E36B7F85DF8A28012EEBDA0372FAC371 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7EA5CB709272649955C1EABA81A6F3AA /* CheckedBox.png in Resources */,
+				EB06FD3B500B8F8FCABC3719A79C04EB /* CheckedCircle.png in Resources */,
+				30A47F1122E632B48ACD4395D195F167 /* UncheckedBox.png in Resources */,
+				86ACED6332019845EF7FED73EC471576 /* UncheckedCircle.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		05501622EED4C5B04311187A466CB35C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C3C23A8441E9CC8C6EF4BBAE120A7D49 /* Pods-Demo-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		667F7C498C04A3B51FEE79CA51BCDFD7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9B3D2966DAA4AF1B0CB2C14EF6104106 /* CheckBoxButton.swift in Sources */,
+				2C8E3A44895E45237F120A63E86B415C /* CheckboxList-dummy.m in Sources */,
+				37D4DF5EDB98AA56B63ABBD77826E68A /* ChecklistView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F93B2153DFDECDE18A8BD163F3C17F82 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = CheckboxList;
+			target = 0C47D1C8F0135A3EB7028996EB20F1F5 /* CheckboxList */;
+			targetProxy = 93659DBB9D1F726A597F2E55C2B849F8 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		707B86CFB21B645E37109F39754D4051 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		863BA8161DE5A150C2FE0CC1353C6D60 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DAB0701F8F25395B1ED46510ED4B9797 /* Pods-Demo.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-Demo/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Demo/Pods-Demo.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_Demo;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		ABF7BE236775D409BA86693107B95E0F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CC6A59B0ADA6CB2F51DAE6508E437829 /* Pods-Demo.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-Demo/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Demo/Pods-Demo.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_Demo;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		E998977B4082E14E9E48C420ADE5E66B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B42DC1D41254918B82DE30213A8FACDD /* CheckboxList.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/CheckboxList/CheckboxList-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/CheckboxList/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/CheckboxList/CheckboxList.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = CheckboxList;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		EF26A3C5B6EDA309192C6025F703DE0A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		F283C3B3800CDEB35364235AC00453CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B42DC1D41254918B82DE30213A8FACDD /* CheckboxList.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/CheckboxList/CheckboxList-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/CheckboxList/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/CheckboxList/CheckboxList.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = CheckboxList;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF26A3C5B6EDA309192C6025F703DE0A /* Debug */,
+				707B86CFB21B645E37109F39754D4051 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CB1A828D57E9494AD1DB667D68A039CF /* Build configuration list for PBXNativeTarget "Pods-Demo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ABF7BE236775D409BA86693107B95E0F /* Debug */,
+				863BA8161DE5A150C2FE0CC1353C6D60 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E6197B1ECD891FF8B7A5455111E61A60 /* Build configuration list for PBXNativeTarget "CheckboxList" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E998977B4082E14E9E48C420ADE5E66B /* Debug */,
+				F283C3B3800CDEB35364235AC00453CD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

@@ -14,6 +14,7 @@
 		8372980E1C0E17480002166D /* UncheckedCircle.png in Resources */ = {isa = PBXBuildFile; fileRef = 8372980C1C0E17480002166D /* UncheckedCircle.png */; };
 		837298111C0E174C0002166D /* CheckedBox.png in Resources */ = {isa = PBXBuildFile; fileRef = 8372980F1C0E174C0002166D /* CheckedBox.png */; };
 		837298121C0E174C0002166D /* UncheckedBox.png in Resources */ = {isa = PBXBuildFile; fileRef = 837298101C0E174C0002166D /* UncheckedBox.png */; };
+		A173EB0F0B24640EADC66E72 /* Pods_CheckboxListSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 920397B14DC6B61EB6219665 /* Pods_CheckboxListSwift.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +29,7 @@
 		8372980C1C0E17480002166D /* UncheckedCircle.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = UncheckedCircle.png; sourceTree = "<group>"; };
 		8372980F1C0E174C0002166D /* CheckedBox.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = CheckedBox.png; sourceTree = "<group>"; };
 		837298101C0E174C0002166D /* UncheckedBox.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = UncheckedBox.png; sourceTree = "<group>"; };
+		920397B14DC6B61EB6219665 /* Pods_CheckboxListSwift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CheckboxListSwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -35,6 +37,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A173EB0F0B24640EADC66E72 /* Pods_CheckboxListSwift.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -94,6 +97,7 @@
 		8971863B142275BBB55579C5 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				920397B14DC6B61EB6219665 /* Pods_CheckboxListSwift.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -201,13 +205,16 @@
 			files = (
 			);
 			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
 			);
 			name = "[CP] Check Pods Manifest.lock";
 			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CheckboxListSwift-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
